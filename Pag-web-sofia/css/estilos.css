@@ -1,0 +1,58 @@
+* {
+    font-family: cursive;
+}
+
+
+.form-container{
+    width: 90%; 
+    max-width: 700px; 
+    margin: 5% auto; 
+    padding: 30px; 
+    border-radius: 15px; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.form-header{
+    background-color: rgb(228, 209, 211);
+    border-radius: 10px 10px 0 0;
+    padding: 15px;
+}
+
+.form-header i{
+    font-size: 50px;
+    color: #555;
+}
+
+.form-footer{
+    padding: 10px;
+    text-align: center;
+}
+
+.form-footer a{
+    color: rgb(228, 209, 211);
+    font-weight: bold;
+}
+
+.btn-custom{
+    background-color: rgb(228, 209, 211);
+    color: #333;
+    border: none;
+}
+
+.btn-custom:hover{
+    background-color: #d6bfbf;
+}
+
+.cart-icon-right {
+    margin-left: auto; /* Empuja el ícono del carrito hacia la derecha */
+    padding-right: 10px; /* Espaciado opcional */
+    color: black; /* Cambia el color del ícono del carrito a negro */
+    border-radius: 50%; /* Hace que el fondo sea redondo */
+    
+}
+
+.cart-icon-right:hover {
+    background-color: #d6bfbf; /* Cambia el fondo al pasar el ratón */
+    color: white; /* Cambia el color del ícono al pasar el ratón */
+}
+

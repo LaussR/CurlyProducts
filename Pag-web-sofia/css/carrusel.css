@@ -1,0 +1,31 @@
+.carousel {
+    max-width: 100%; 
+    margin: 0 auto; /* Centra el carrusel horizontalmente */
+    padding: 15px;
+}
+.carousel-inner {
+  width: 100%;
+  overflow: hidden; /* Asegura que no haya desbordamiento */
+}
+
+.carousel-item img {
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+}
+.carousel {
+  height: auto; /* O la altura deseada */
+}
+
+.carousel-inner {
+  height: 100%; /* Asegura que el contenido interior ocupe toda la altura del contenedor */
+}
+
+.carousel-item img {
+  height: 100%; /* Ajusta la altura de la imagen para que ocupe toda la altura del contenedor */
+  object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsionarse */
+}
+.carousel-caption-text {
+  color: #532f2f; 
+  
+}
+
+

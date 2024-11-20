@@ -1,0 +1,87 @@
+* {
+  font-family: cursive;
+}
+
+/* Contenedor principal de productos */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+/* Título principal */
+.container h2 {
+  text-align: center;
+  margin-bottom: 32px;
+  color: #333;
+}
+
+/* Estilo de las tarjetas de producto */
+.card {
+  box-shadow: 0 4px 8px rgba(219, 9, 9, 0.2);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(219, 9, 9, 0.3);
+}
+
+/* Imagen de la tarjeta */
+.card img {
+  width: 100%;
+  height: 350px; /* Ajusta según sea necesario */
+  object-fit: cover;
+}
+
+/* Cuerpo de la tarjeta */
+.card-body {
+  padding: 15px;
+  background-color: #fff;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Título y texto de la tarjeta */
+.card-title {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* Botón centrado */
+.btn-primary {
+  background-color: rgb(228, 209, 211);
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
+  padding: 10px 20px;
+  min-width: 150px; /* Ancho mínimo para el botón */
+  height: 40px; /* Altura fija del botón */
+  transition: transform 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #d6bfbf;
+  transform: scale(1.1);
+}
+
+/* Ajuste de columnas */
+.col-md-4 {
+  margin-bottom: 30px;
+  padding: 0 15px; /* Aumenta el espaciado horizontal */
+}
+
+/* Estilos para el contenedor de filas */
+.row {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las tarjetas se envuelvan */
+}
