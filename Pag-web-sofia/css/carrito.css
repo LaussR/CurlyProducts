@@ -4,11 +4,11 @@
 
 /* Estilo para el contenedor del carrito */
 .cart-container {
-  width: 90%; 
-  margin: 5% auto; 
-  padding: 30px; 
-  border-radius: 15px; 
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+  width: 90%;
+  margin: 5% auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .cart-header {
@@ -95,15 +95,18 @@
 }
 
 .btn-sm:hover {
-  
-  transform: scale(1.1); /* Aumenta el tamaño al pasar el ratón */
+
+  transform: scale(1.1);
+  /* Aumenta el tamaño al pasar el ratón */
   box-shadow: 1px solid #eeee;
-  border-radius: 50px; /* Cambia la forma a más redondeada */
+  border-radius: 50px;
+  /* Cambia la forma a más redondeada */
   cursor: pointer;
 }
 
 
 #popup {
+  overflow: scroll;
   padding: 30px;
   display: none;
   /* Dont Touc */
@@ -141,7 +144,3 @@
   bottom: 13%;
   transform: scale(1.6);
 }
-
-
-
-

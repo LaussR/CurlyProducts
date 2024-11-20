@@ -27,13 +27,13 @@
 </head>
 
 <body>
-    
+
     <div id="navegacion">
         <menu-lateral></menu-lateral>
-    
+
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
-            
+
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
@@ -41,23 +41,23 @@
                     <img src="img/collection1.png" alt="Chania">
                     <div class="carousel-caption d-none d-md-block"></div>
                 </div>
-    
+
                 <div class="carousel-item">
                     <img src="img/collection2.png" alt="Skala">
                     <div class="carousel-caption d-none d-md-block"></div>
                 </div>
-    
+
                 <div class="carousel-item">
                     <img src="img/collection3.png" alt="Flower">
                     <div class="carousel-caption d-none d-md-block"></div>
                 </div>
-    
+
                 <div class="carousel-item">
                     <img src="img/collection4.png" alt="Placeholder">
                     <div class="carousel-caption d-none d-md-block"></div>
                 </div>
             </div>
-    
+
             <!-- Left and right controls -->
             <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -68,17 +68,17 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    
+
         <div class="container my-5">
             <h1 class="text-center mb-4">Curly Shop</h1>
             <h2 class="text-center mb-4">Nuestras Colecciones</h2>
-    
+
             <!-- Barra de búsqueda -->
             <div class="input-group mb-4">
                 <input class="form-control" type="text" v-model="busqueda" placeholder="Busca tu coleccion preferida"
                     autocomplete="off">
             </div>
-    
+
             <!-- Lista de productos -->
             <div class="row">
                 <div v-for="producto in productosFiltrados" :key="producto.id" class="col-md-4 mb-4">
@@ -88,13 +88,12 @@
                         <div class="card-body">
                             <h5 class="card-title">{{ producto.titulo }}</h5>
                             <p class="card-text">{{ producto.texto }}</p>
-                            <a :href="producto.link" class="btn btn-primary">Ver Colección</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    
+
         <footer-bar></footer-bar>
     </div>
 

@@ -4,14 +4,14 @@ header('Access-Control-Allow-Origin: *');  // Permitir solicitudes CORS
 
 require 'config.php';
 
-// Obtener datos de la base de datos (ejemplo: obtener usuarios)
+
 if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     $stmt = $pdo->query("SELECT * FROM usuarios");
     $usuarios = $stmt->fetchAll(PDO::FETCH_ASSOC);
     echo json_encode($usuarios);
 }
 
-// Agregar un usuario (POST)
+/
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $data = json_decode(file_get_contents('php://input'), true);
     
@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 }
 
-// Login (Verificar usuario)
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
     $data = json_decode(file_get_contents('php://input'), true);
     

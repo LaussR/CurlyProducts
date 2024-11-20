@@ -73,7 +73,7 @@ new Vue({
                 setTimeout(() => {
                     this.showMessage = false;
                     // Redirigir a la página principal
-                    window.location.href = 'paginaPrincipal.html';
+                    window.location.href = 'presentacion.html';
                 }, 3000);
             } else {
                 console.log('Faltan credenciales');
@@ -87,7 +87,7 @@ new Vue({
                 setTimeout(() => {
                     this.showMessage = false;
                     // Redirigir a la página principal
-                    window.location.href = 'paginaPrincipal.html';
+                    window.location.href = 'presentacion.html';
                 }, 3000);
             } else {
                 console.log('Faltan credenciales');
